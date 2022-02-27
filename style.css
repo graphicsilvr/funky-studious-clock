@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, red , blue);;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Merriweather', regular;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: #5E454B;
+  border: 1px dotted #fff;
+  color: #fff;
+  cursor: auto;
+  font-size: 20px;
+  padding: 10px 35px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+margin: -10px 20px 20px;  
+}
+
+timer container h2 {
+margin: -40;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container
+{
+  border: 1px dotted #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.clock-container h1 {
+margin: 0;
+}
+
+.clock-container span {
+font-size: 80px;
+}
